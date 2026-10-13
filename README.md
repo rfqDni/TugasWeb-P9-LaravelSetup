@@ -1,3 +1,27 @@
+Tugas Rutin 9 - Setup Laravel
+
+## Deskripsi Pengerjaan
+Pada Tugas Rutin 9 ini, saya melakukan instalasi framework Laravel versi terbaru, mengonfigurasi koneksi database MySQL pada file `.env`, serta membuat 3 route custom (`/`, `/about`, `/contact`) yang menampilkan data dinamis ke dalam Blade view. Selain itu, saya juga telah membuat Controller (`MainController`) dan Model (`Post`) menggunakan Artisan CLI.
+
+## Hasil Tampilan (Screenshot)
+### 1. Halaman Utama (Welcome / Home)
+![Home Page](screenshots/welcome.png)
+
+### 2. Halaman About
+![About Page](screenshots/about.png)
+
+### 3. Halaman Contact
+![Contact Page](screenshots/contact.png)
+
+## Langkah Instalasi & Jalankan Proyek
+1. Clone repository ini
+2. Jalankan `composer install` di terminal
+3. Salin file `.env.example` menjadi `.env` lalu sesuaikan konfigurasi database (`DB_DATABASE=blog_db`)
+4. Buat database `blog_db` di phpMyAdmin
+5. Jalankan `php artisan key:generate`
+6. Jalankan migrasi database dengan `php artisan migrate`
+7. Jalankan server lokal dengan `php artisan serve`
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
